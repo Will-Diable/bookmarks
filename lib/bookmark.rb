@@ -5,6 +5,5 @@ class Bookmark
       "http://www.destroyallsoftware.com",
       "http://www.google.com"
      ]
-    binding.pry
   end
 end
