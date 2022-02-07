@@ -16,7 +16,10 @@ class BookmarkManager < Sinatra::Base
       "http://www.destroyallsoftware.com",
       "http://www.google.com"
     ]  
-    @bookmarks.join("<hr>")
+    @bookmarks.join("<hr>XD")
+
+    erb :'bookmarks/index'
+
   end
 
   run! if app_file == $0
